@@ -7,6 +7,9 @@ public class Mammal {
     public Mammal(){
         this.energyLevel = 100;
     }
+    public Mammal(int energyLevel){
+        this.energyLevel = energyLevel;
+    }
 
     // Methods
     public int displayEnergyLevel(){
