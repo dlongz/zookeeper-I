@@ -4,15 +4,22 @@ public class GorillaTest {
 
         Cammy.displayEnergyLevel();
 
-        Cammy.throwSomthing();
-        Cammy.throwSomthing();
-        Cammy.throwSomthing();
-
-        Cammy.eatBananas();
-        Cammy.eatBananas();
-
-        Cammy.climb();
-
+        System.out.println(Cammy.throwSomthing());
+        Cammy.displayEnergyLevel();
+        
+        System.out.println(Cammy.throwSomthing());
+        Cammy.displayEnergyLevel();
+        
+        System.out.println(Cammy.throwSomthing());
+        Cammy.displayEnergyLevel();
+        
+        System.out.println(Cammy.eatBananas());
+        Cammy.displayEnergyLevel();
+        
+        System.out.println(Cammy.eatBananas());
+        Cammy.displayEnergyLevel();
+        
+        System.out.println(Cammy.climb());
         Cammy.displayEnergyLevel();
     }
 }

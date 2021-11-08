@@ -1,16 +1,16 @@
 import javax.swing.text.html.HTMLDocument.RunElement;
 
 public class Mammal {
-    private int energyLevel;
+    protected int energyLevel;
 
-    public Mammal(){this(100);};
-    public Mammal(int energyLevel){
-        this.energyLevel = energyLevel;
+    
+    public Mammal(){
+        this.energyLevel = 100;
     }
 
     // Methods
     public int displayEnergyLevel(){
-        System.out.println(this.energyLevel);
+        System.out.printf("Current Energy: %d\n",this.energyLevel);
         return this.energyLevel;
     }
 }
